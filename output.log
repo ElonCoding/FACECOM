@@ -1,0 +1,216 @@
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+
+Epoch 1/30
+
+Training:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Training:   0%|          | 0/1 [00:28<?, ?it/s, loss=0.7]
+Training: 100%|##########| 1/1 [00:28<00:00, 28.94s/it, loss=0.7]
+Training: 100%|##########| 1/1 [00:30<00:00, 30.27s/it, loss=0.7]
+C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\metrics\_classification.py:1706: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Validation: 100%|##########| 1/1 [00:27<00:00, 27.51s/it]
+Validation: 100%|##########| 1/1 [00:28<00:00, 28.78s/it]
+
+Validation Metrics:
+Gender - Accuracy: 0.5000, F1: 0.6667
+Identity - Accuracy: 0.5000, F1: 0.3333
+Combined Score: 0.5000
+
+Epoch 2/30
+
+Training:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Training:   0%|          | 0/1 [00:25<?, ?it/s, loss=0.48]
+Training: 100%|##########| 1/1 [00:25<00:00, 25.55s/it, loss=0.48]
+Training: 100%|##########| 1/1 [00:26<00:00, 26.95s/it, loss=0.48]
+
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Validation: 100%|##########| 1/1 [00:25<00:00, 25.19s/it]
+Validation: 100%|##########| 1/1 [00:26<00:00, 26.43s/it]
+
+Validation Metrics:
+Gender - Accuracy: 0.5000, F1: 0.6667
+Identity - Accuracy: 0.5000, F1: 0.3333
+Combined Score: 0.5000
+
+Epoch 3/30
+
+Training:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Training:   0%|          | 0/1 [00:26<?, ?it/s, loss=0.144]
+Training: 100%|##########| 1/1 [00:26<00:00, 26.33s/it, loss=0.144]
+Training: 100%|##########| 1/1 [00:27<00:00, 27.73s/it, loss=0.144]
+
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Validation: 100%|##########| 1/1 [00:27<00:00, 27.40s/it]
+Validation: 100%|##########| 1/1 [00:29<00:00, 29.05s/it]
+
+Validation Metrics:
+Gender - Accuracy: 0.5000, F1: 0.6667
+Identity - Accuracy: 0.5000, F1: 0.3333
+Combined Score: 0.5000
+
+Epoch 4/30
+
+Training:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Training:   0%|          | 0/1 [00:26<?, ?it/s, loss=0.0354]
+Training: 100%|##########| 1/1 [00:26<00:00, 26.39s/it, loss=0.0354]
+Training: 100%|##########| 1/1 [00:27<00:00, 27.76s/it, loss=0.0354]
+
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Validation: 100%|##########| 1/1 [00:27<00:00, 27.04s/it]
+Validation: 100%|##########| 1/1 [00:28<00:00, 28.48s/it]
+
+Validation Metrics:
+Gender - Accuracy: 0.5000, F1: 0.6667
+Identity - Accuracy: 0.5000, F1: 0.3333
+Combined Score: 0.5000
+
+Epoch 5/30
+
+Training:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Training:   0%|          | 0/1 [00:28<?, ?it/s, loss=4.52]
+Training: 100%|##########| 1/1 [00:28<00:00, 28.17s/it, loss=4.52]
+Training: 100%|##########| 1/1 [00:29<00:00, 29.54s/it, loss=4.52]
+
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Validation: 100%|##########| 1/1 [00:23<00:00, 23.93s/it]
+Validation: 100%|##########| 1/1 [00:25<00:00, 25.31s/it]
+
+Validation Metrics:
+Gender - Accuracy: 1.0000, F1: 1.0000
+Identity - Accuracy: 1.0000, F1: 1.0000
+Combined Score: 1.0000
+
+Epoch 6/30
+
+Training:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Training:   0%|          | 0/1 [00:23<?, ?it/s, loss=1.15]
+Training: 100%|##########| 1/1 [00:23<00:00, 23.95s/it, loss=1.15]
+Training: 100%|##########| 1/1 [00:25<00:00, 25.18s/it, loss=1.15]
+
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Validation: 100%|##########| 1/1 [00:23<00:00, 23.53s/it]
+Validation: 100%|##########| 1/1 [00:24<00:00, 24.85s/it]
+
+
+Validation Metrics:
+Gender - Accuracy: 1.0000, F1: 1.0000
+Identity - Accuracy: 1.0000, F1: 1.0000
+Combined Score: 1.0000
+
+Epoch 7/30
+Training:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Training:   0%|          | 0/1 [00:24<?, ?it/s, loss=0.0344]
+Training: 100%|##########| 1/1 [00:24<00:00, 24.61s/it, loss=0.0344]
+Training: 100%|##########| 1/1 [00:26<00:00, 26.03s/it, loss=0.0344]
+
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Validation: 100%|##########| 1/1 [00:24<00:00, 24.09s/it]
+Validation: 100%|##########| 1/1 [00:25<00:00, 25.26s/it]
+
+Validation Metrics:
+Gender - Accuracy: 1.0000, F1: 1.0000
+Identity - Accuracy: 1.0000, F1: 1.0000
+Combined Score: 1.0000
+
+Epoch 8/30
+
+Training:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Training:   0%|          | 0/1 [00:24<?, ?it/s, loss=0.0411]
+Training: 100%|##########| 1/1 [00:24<00:00, 24.21s/it, loss=0.0411]
+Training: 100%|##########| 1/1 [00:25<00:00, 25.51s/it, loss=0.0411]
+
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Validation: 100%|##########| 1/1 [00:23<00:00, 23.87s/it]
+Validation: 100%|##########| 1/1 [00:25<00:00, 25.31s/it]
+
+Validation Metrics:
+Gender - Accuracy: 1.0000, F1: 1.0000
+Identity - Accuracy: 1.0000, F1: 1.0000
+Combined Score: 1.0000
+
+Epoch 9/30
+
+Training:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Training:   0%|          | 0/1 [00:25<?, ?it/s, loss=0.13]
+Training: 100%|##########| 1/1 [00:25<00:00, 25.30s/it, loss=0.13]
+Training: 100%|##########| 1/1 [00:26<00:00, 26.67s/it, loss=0.13]
+
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Validation: 100%|##########| 1/1 [00:26<00:00, 26.93s/it]
+Validation: 100%|##########| 1/1 [00:28<00:00, 28.46s/it]
+
+Validation Metrics:
+Gender - Accuracy: 1.0000, F1: 1.0000
+Identity - Accuracy: 1.0000, F1: 1.0000
+Combined Score: 1.0000
+
+Epoch 10/30
+
+Training:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Training:   0%|          | 0/1 [00:26<?, ?it/s, loss=0.0547]
+Training: 100%|##########| 1/1 [00:26<00:00, 26.84s/it, loss=0.0547]
+Training: 100%|##########| 1/1 [00:28<00:00, 28.28s/it, loss=0.0547]
+
+Validation:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Validation: 100%|##########| 1/1 [00:27<00:00, 27.38s/it]
+Validation: 100%|##########| 1/1 [00:28<00:00, 28.89s/it]
+
+Validation Metrics:
+Gender - Accuracy: 1.0000, F1: 1.0000
+Identity - Accuracy: 1.0000, F1: 1.0000
+Combined Score: 1.0000
+
+Early stopping triggered!
+
+Creating submission:   0%|          | 0/1 [00:00<?, ?it/s]C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+
+Creating submission: 100%|##########| 1/1 [00:26<00:00, 26.84s/it]
+Creating submission: 100%|##########| 1/1 [00:28<00:00, 28.30s/it]
+
+Submission file created: submission.csv

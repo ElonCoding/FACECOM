@@ -1,0 +1,13 @@
+[
+  {
+    "filename": "image1.jpg",
+    "gender": "Male",
+    "person_id": "id1"
+  },
+  {
+    "filename": "image2.jpg",
+    "gender": "Female",
+    "person_id": "id2"
+  }
+  
+]
